@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MeuPrim2Component } from './meu-prim2/meu-prim2.component';
+import { CursosModule } from './cursos/cursos.module';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +14,8 @@ import { MeuPrim2Component } from './meu-prim2/meu-prim2.component';
     MeuPrim2Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CursosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
